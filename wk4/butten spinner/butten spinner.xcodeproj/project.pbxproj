@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		FC4AAC781F871B6000ED09D1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4AAC711F871B6000ED09D1 /* main.cpp */; };
-		FC4AAC791F871B6000ED09D1 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4AAC721F871B6000ED09D1 /* ofApp.cpp */; };
-		FC4AAC7A1F871B6000ED09D1 /* particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4AAC741F871B6000ED09D1 /* particle.cpp */; };
-		FC4AAC7B1F871B6000ED09D1 /* spring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC4AAC761F871B6000ED09D1 /* spring.cpp */; };
+		FCBFCF341F8723580043526D /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCBFCF2D1F8723580043526D /* ofApp.cpp */; };
+		FCBFCF351F8723580043526D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCBFCF2E1F8723580043526D /* main.cpp */; };
+		FCBFCF361F8723580043526D /* particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCBFCF301F8723580043526D /* particle.cpp */; };
+		FCBFCF371F8723580043526D /* spring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCBFCF321F8723580043526D /* spring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,18 +44,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* Butten spinner2Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Butten spinner2Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* butten spinnerDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "butten spinnerDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		FC4AAC711F871B6000ED09D1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/main.cpp"; sourceTree = "<group>"; };
-		FC4AAC721F871B6000ED09D1 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/ofApp.cpp"; sourceTree = "<group>"; };
-		FC4AAC731F871B6000ED09D1 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/ofApp.h"; sourceTree = "<group>"; };
-		FC4AAC741F871B6000ED09D1 /* particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = particle.cpp; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/particle.cpp"; sourceTree = "<group>"; };
-		FC4AAC751F871B6000ED09D1 /* particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = particle.h; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/particle.h"; sourceTree = "<group>"; };
-		FC4AAC761F871B6000ED09D1 /* spring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spring.cpp; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/spring.cpp"; sourceTree = "<group>"; };
-		FC4AAC771F871B6000ED09D1 /* spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spring.h; path = "../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/spring.h"; sourceTree = "<group>"; };
+		FCBFCF2D1F8723580043526D /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/ofApp.cpp"; sourceTree = "<group>"; };
+		FCBFCF2E1F8723580043526D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/main.cpp"; sourceTree = "<group>"; };
+		FCBFCF2F1F8723580043526D /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/ofApp.h"; sourceTree = "<group>"; };
+		FCBFCF301F8723580043526D /* particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = particle.cpp; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/particle.cpp"; sourceTree = "<group>"; };
+		FCBFCF311F8723580043526D /* particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = particle.h; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/particle.h"; sourceTree = "<group>"; };
+		FCBFCF321F8723580043526D /* spring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spring.cpp; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/spring.cpp"; sourceTree = "<group>"; };
+		FCBFCF331F8723580043526D /* spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spring.h; path = "../../../../../../../Users/abhisheksharma/Downloads/ofBook-master/chapters/animation/code/23_springs/src/spring.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,20 +101,20 @@
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* Butten spinner2Debug.app */,
+				E4B69B5B0A3A1756003C02F2 /* butten spinnerDebug.app */,
 			);
 			sourceTree = "<group>";
 		};
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				FC4AAC711F871B6000ED09D1 /* main.cpp */,
-				FC4AAC721F871B6000ED09D1 /* ofApp.cpp */,
-				FC4AAC731F871B6000ED09D1 /* ofApp.h */,
-				FC4AAC741F871B6000ED09D1 /* particle.cpp */,
-				FC4AAC751F871B6000ED09D1 /* particle.h */,
-				FC4AAC761F871B6000ED09D1 /* spring.cpp */,
-				FC4AAC771F871B6000ED09D1 /* spring.h */,
+				FCBFCF2D1F8723580043526D /* ofApp.cpp */,
+				FCBFCF2E1F8723580043526D /* main.cpp */,
+				FCBFCF2F1F8723580043526D /* ofApp.h */,
+				FCBFCF301F8723580043526D /* particle.cpp */,
+				FCBFCF311F8723580043526D /* particle.h */,
+				FCBFCF321F8723580043526D /* spring.cpp */,
+				FCBFCF331F8723580043526D /* spring.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* Butten spinner2 */ = {
+		E4B69B5A0A3A1756003C02F2 /* butten spinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Butten spinner2" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "butten spinner" */;
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
-			name = "Butten spinner2";
+			name = "butten spinner";
 			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* Butten spinner2Debug.app */;
+			productReference = E4B69B5B0A3A1756003C02F2 /* butten spinnerDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Butten spinner2" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "butten spinner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,7 +179,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* Butten spinner2 */,
+				E4B69B5A0A3A1756003C02F2 /* butten spinner */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -215,10 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4AAC791F871B6000ED09D1 /* ofApp.cpp in Sources */,
-				FC4AAC781F871B6000ED09D1 /* main.cpp in Sources */,
-				FC4AAC7B1F871B6000ED09D1 /* spring.cpp in Sources */,
-				FC4AAC7A1F871B6000ED09D1 /* particle.cpp in Sources */,
+				FCBFCF351F8723580043526D /* main.cpp in Sources */,
+				FCBFCF341F8723580043526D /* ofApp.cpp in Sources */,
+				FCBFCF371F8723580043526D /* spring.cpp in Sources */,
+				FCBFCF361F8723580043526D /* particle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../libs/glut/lib/osx\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
@@ -325,7 +325,7 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
 				ICON = "$(ICON_NAME_RELEASE)";
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Butten spinner2" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "butten spinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Butten spinner2" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "butten spinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,
